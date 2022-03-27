@@ -1,0 +1,36 @@
+.heading{
+ font-size: 30px;
+ margin-bottom: 15px;
+ animation-name: example;
+ animation-duration: 3s;
+ animation-iteration-count: infinite;
+}
+.note{
+ font-size: 15px;
+}
+
+body{
+    text-align: center;
+    background-color: aquamarine;
+}
+.footer{
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    font-size: 25px;
+    position: fixed;
+    background-color: chartreuse;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 5px 5px black;
+    }
+    to {
+        box-shadow: 5px 5px grey;
+    }
+}
+
+canvas{
+    background-color: grey;
+}
